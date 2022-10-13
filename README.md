@@ -1,4 +1,4 @@
-# Insomnia - Copy Response to Typescript Types
+# Insomnia - Zod Schema from response
 
 Add a request action to generate Zod Schema from response and copy it to the clipboard.
 
