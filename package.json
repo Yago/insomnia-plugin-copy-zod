@@ -1,0 +1,29 @@
+{
+  "name": "insomnia-plugin-copy-zod",
+  "version": "1.0.0",
+  "private": false,
+  "author": "yago",
+  "main": "src/index.js",
+  "insomnia": {
+    "name": "copy-zod",
+    "displayName": "Copy Response to Zod",
+    "description": "Copy response to Zod schema",
+    "applications": {
+      "designer": "*",
+      "core": "*",
+      "cli": "*"
+    }
+  },
+  "scripts": {},
+  "license": "MIT",
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "zod",
+    "zod schema"
+  ],
+  "dependencies": {
+    "json-to-zod": "^1.1.2",
+    "zod": "^3.19.1"
+  }
+}
